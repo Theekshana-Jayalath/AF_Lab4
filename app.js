@@ -1,3 +1,5 @@
+console.log("Updated by Amaya");
+
 async function myFunction() {
 try {
 const result = await myPromise;
@@ -7,3 +9,4 @@ console.log(error);
 }
 }
 myFunction();
+
