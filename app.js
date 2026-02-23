@@ -8,4 +8,5 @@ resp.on('end', () => {
 console.log(JSON.parse(data));
 });
 }).on('error', (err) => {
-con
+console.log("Error: " + err.message);
+});
